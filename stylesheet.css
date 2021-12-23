@@ -60,30 +60,51 @@ li {
     height: auto;
 }
 .three {
-    height:500px;
     background:white;
     display: flex;
     flex-direction:column;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
 }
 .h3 {
     flex: auto;
+    padding-bottom:40px;
 }
 .boxes {
     display:flex;
+    padding-bottom:40px;
+    gap: 40px;
 }
 .box {
-    box-sizing: border-box;
-    height: 50px;
-    width: 40px;
-    border: solid blue 1px;
+    box-sizing: content-box;
+}
+.box img {
+    height:250px;
+    width:auto;
 }
 .four {
     height: 500px;
     background: #e5e7eb;
     height:500px;
 
+}
+
+.yellow {
+    height: 100px;
+    width: 80%;
+    background-color:#3882f6;
+    margin: 200px auto;
+    display:flex;
+    gap: 40px;
+    justify-content:space-around;
+}
+.lefty {
+    flex: auto;
+    margin: 0;
+}
+.righty {
+    flex: auto;
+    margin: 0;
 }
 .five {
     background:white;
